@@ -1,0 +1,1 @@
+export { normalizeDataUsage } from './normalizeDataUsage';

@@ -1,0 +1,29 @@
+# Telgea MVNO Mock & Data Normalizer
+
+This project includes two components:
+
+- **`mvno-soap-mock`**: A local mock REST/SOAP server simulating data usage and charge SMS services.
+- **`telgea-data-normalizer`**: A TypeScript ETL client that consumes the SOAP service and processes usage data into a normalized format.
+
+---
+
+## Running the MVNO Mock Server
+
+```bash
+cd mvno-mock
+npm install
+npm run dev
+
+## Running the Data Normalizer
+
+```bash
+cd telgea-data-normalizer
+npm install
+npm run start
+
+After running the normalizer, a normalized JSON file is generated at:
+
+telgea-data-normalizer/db-mock/internal_api_format.json
+
+## Future improvements 
+- Add a cronjob to schedule data fetching 
