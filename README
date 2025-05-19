@@ -1,5 +1,10 @@
 # Telgea MVNO Mock & Data Normalizer
 
+**Tech Stack**:
+- **Node.js**
+- **Express.js**
+- **TypeScript**
+
 This project includes two components:
 
 - **`mvno-soap-mock`**: A local mock REST/SOAP server simulating data usage and charge SMS services.
